@@ -15,7 +15,7 @@ const App = () => {
     setEditorHtml(html);
   };
 
-  const genAI = new GoogleGenerativeAI('AIzaSyA2vdutgmI6H61Ero8-tAzEQe60OHWb41k');
+  const genAI = new GoogleGenerativeAI('YOUR API KEY');
 
   async function run() {
     const model = genAI.getGenerativeModel({ model: "gemini-pro" });
