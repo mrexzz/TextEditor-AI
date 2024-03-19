@@ -1,0 +1,39 @@
+.app {
+  width: 100%;
+  height: 100vh; /* Sayfanın tamamını kaplar */
+}
+
+.ql-editor {
+  height: 75vh; /* Editör alanının yüksekliği - toolbar yüksekliği */
+}
+
+.ql-toolbar {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 100;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.btn-animate {
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-animate:hover {
+  transform: scale(1.1);
+}
+
+.text-container {
+  margin-top: 20px;
+  text-align: center;
+}
+.dropdown-margin {
+  margin: 2%;
+}
+.box{
+  margin: 20vh;
+}
