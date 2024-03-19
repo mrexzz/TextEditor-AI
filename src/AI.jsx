@@ -5,7 +5,7 @@ export default function PageQuestionInput() {
   const [text, setGeneratedText] = useState('');
   const [question, setQuestion] = useState('');
 
-  const genAI = new GoogleGenerativeAI('YOUR APİ KEY');
+  const genAI = new GoogleGenerativeAI('YOUR API KEY');
 
   async function run() {
     const model = genAI.getGenerativeModel({ model: "gemini-pro" });
